@@ -12,9 +12,9 @@ The MBTI personality classification system grew out with Jungian psychoanalytic 
 - Judging (J) vs Perceiving (P): a measure of hoe much an individual prefers a planned ans ordered life versus a flexible and spontaneous life.
 
 ## Preprocessing
-
-In the first place, I analyse the dataset to have a first impression of the data I had. Afterwards, the second step was to clean the posts column, deleting separations tabs, urls, @ and other information that was irrelevant for the model. I didn't remove stop words, tokenize the words or lemmatize them, due to the preprocessing model I used didn't need to do this steps.
+In the first place, I analyse the dataset to have a first impression of the data. Afterwards, the second step is to clean the posts column, deleting separations tabs, urls, @ and other information that is irrelevant for the model. I didn't remove stop words, tokenize the words or lemmatize them, due to the preprocessing model used doesn't need this steps.
 
 ## Word Embedding
+Once we have our cleaned data and our labels in numbers, this step is the most controversial because there are several preprocessing models and I had to choose the best that fits to my problem. After trying different models the best one was [nnlm-en-dim50](https://tfhub.dev/google/nnlm-en-dim50/2)
 
 
