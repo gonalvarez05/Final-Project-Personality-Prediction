@@ -22,6 +22,8 @@ With tensorflow and keras I create a sequential model where I added the data tha
 Adam Optimation and a loss function, a categorial crossentropy. As a metric I had to use a categorical accuracy beacause there are 16 different personality types.
 
 ## Results
+Categorical results
+
 | Model      | Train accuracy | Validation accuracy | Test accuracy|
 | ----------- | ----------- | ---------------| ---------------| 
 | Categorical model   |  56.65%       | 35.97%|     37.58% |
@@ -30,9 +32,9 @@ Binary results
 
 | Model      | Train accuracy | Validation accuracy | Test accuracy|
 | ----------- | ----------- | ---------------| ---------------| 
-| Intro vs Extro  |  99.10%       | 86.23%|     83.54% |
-| Sens vs Intuition  |  86.72%       | 86.11%|     85.24% |
-| Think vs Feeling  |  87.19%       | 80.45%|     80.87% |
+| Introvertion vs Extrovertion  |  99.10%       | 86.23%|     83.54% |
+| Sensing vs Intuition  |  86.72%       | 86.11%|     85.24% |
+| Thinking vs Feeling  |  87.19%       | 80.45%|     80.87% |
 | Judging vs Perceiving  |  59.87%       | 60.23%|     61.77% |
 
 
