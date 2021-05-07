@@ -15,7 +15,7 @@ The MBTI personality classification system grew out with Jungian psychoanalytic 
 In the first place, I analyse the dataset to have a first impression of the data. Afterwards, the second step is to clean the posts column, deleting separations tabs, urls, @ and other information that is irrelevant for the model. I didn't remove stop words, tokenize the words or lemmatize them, due to the preprocessing model used doesn't need this steps.
 
 ## Word Embedding
-Once we have our cleaned data and our labels in numbers, this step is the most controversial because there are several preprocessing models and I had to choose the best that fits to my problem. After trying different models the best one was [nnlm-en-dim50](https://tfhub.dev/google/nnlm-en-dim50/2), a token based text embedding trained on English Google News published by Google. It is based on NNLM (Neural Network Language Model) with to hidden layers. 
+Once we have our cleaned data and our labels in numbers, this step is the most controversial because there are several preprocessing models and I had to choose the best that fits to my problem. After trying different models the best one was [nnlm-en-dim50](https://tfhub.dev/google/nnlm-en-dim50/2), a token based text embedding trained on English Google News published by Google. It is based on NNLM (Neural Network Language Model) with two hidden layers. 
 
 ## Create and train the model
 With tensorflow and keras I create a sequential model where I added the data that was before transform in arrays and two more dense layers. As optimizer I used 
