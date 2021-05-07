@@ -12,3 +12,7 @@ The MBTI personality classification system grew out with Jungian psychoanalytic 
 - Judging (J) vs Perceiving (P): a measure of hoe much an individual prefers a planned ans ordered life versus a flexible and spontaneous life.
 
 ## Preprocessing
+
+In the first place, I analyse the dataset to have a first impression of the data I had. Afterwards, the second step was to clean the posts column, deleting separations tabs, urls, @ and other information that was irrelevant for the model. I didn't remove stop words, tokenize the words or lemmatize them, due to the preprocessing model I used didn't need to do this steps. 
+
+## Word Embedding
