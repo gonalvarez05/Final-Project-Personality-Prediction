@@ -18,7 +18,7 @@ In the first place, I analyse the dataset to have a first impression of the data
 Once we have our cleaned data and our labels in numbers, this step is the most controversial because there are several preprocessing models and I had to choose the best that fits to my problem. After trying different models the best one was [nnlm-en-dim50](https://tfhub.dev/google/nnlm-en-dim50/2), a token based text embedding trained on English Google News published by Google. It is based on NNLM (Neural Network Language Model) with to hidden layers. 
 
 ## Create and train the model
-With tensorflow and keras I create a sequential model where I added the data that was before transform in arrays and to more dense layers. As optimizer I used 
+With tensorflow and keras I create a sequential model where I added the data that was before transform in arrays and two more dense layers. As optimizer I used 
 Adam Optimation and a loss function, a categorial crossentropy. As a metric I had to use a categorical accuracy beacause there are 16 different personality types.
 
 ## Results
