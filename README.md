@@ -26,6 +26,15 @@ Adam Optimation and a loss function, a categorial crossentropy. As a metric I ha
 | ----------- | ----------- | ---------------| ---------------| 
 | Categorical model   |  56.65%       | 35.97%|     37.58% |
 
+Binary results
+
+| Model      | Train accuracy | Validation accuracy | Test accuracy|
+| ----------- | ----------- | ---------------| ---------------| 
+| Intro vs Extro  |  99.10%       | 86.23%|     83.54% |
+| Sens vs Intuition  |  86.72%       | 86.11%|     85.24% |
+| Think vs Feeling  |  87.19%       | 80.45%|     80.87% |
+| Judging vs Perceiving  |  59.87%       | 60.23%|     61.77% |
+
 
 
 
