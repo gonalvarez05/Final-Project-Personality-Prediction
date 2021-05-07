@@ -21,7 +21,7 @@ Once we have our cleaned data and our labels in numbers, this step is the most c
 With tensorflow and keras I create a sequential model where I added the data that was before transform in arrays and two more dense layers. As optimizer I used 
 Adam Optimation and a loss function, a categorial crossentropy. As a metric I had to use a categorical accuracy beacause there are 16 different personality types.
 
-## Results
+## Results achieved
 Categorical results
 
 | Model      | Train accuracy | Validation accuracy | Test accuracy|
