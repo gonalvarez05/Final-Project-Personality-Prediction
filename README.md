@@ -21,7 +21,7 @@ Once we have our cleaned data and our labels in numbers, this step is the most c
 With tensorflow and keras I create a sequential model where I added the data that was before transform in arrays and two more dense layers. The optimizer I used is the Adam Optimation and metric, categorical accuracy beacause there are 16 different personality types.
 
 ## Results achieved
-Categorical results
+Categorical results:
 
 | Model      | Train accuracy | Validation accuracy | Test accuracy|
 | ----------- | ----------- | ---------------| ---------------| 
