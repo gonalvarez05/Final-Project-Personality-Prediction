@@ -27,7 +27,7 @@ Categorical results:
 | ----------- | ----------- | ---------------| ---------------| 
 | Categorical model   |  56.65%       | 35.97%|     37.58% |
 
-Binary results
+Binary results:
 
 | Model      | Train accuracy | Validation accuracy | Test accuracy|
 | ----------- | ----------- | ---------------| ---------------| 
